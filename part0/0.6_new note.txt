@@ -1,0 +1,9 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over browser:
+The browser executes the onsubmit(e) event handler
+that renders notes including the newly created note.
+The browser stays on the same page, and doesn't sends any further HTTP-requests.
+end note
+
+server-->browser: statuscode - 201 created
